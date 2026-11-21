@@ -1,0 +1,7 @@
+# Whitelist: only the extracted text, the manifest and repo docs are published.
+# PDFs, OCR tools/cache and the private decision log stay local.
+/*
+!/.gitignore
+!/README.md
+!/manifest.json
+!/text/
